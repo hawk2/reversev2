@@ -3,7 +3,6 @@ function reverse(arg) {
     return arg.split("").reverse().join("");
 }
 
-
 //make some other thingys that reverse some strings
 function reverseV2(something){
     //something here
@@ -12,7 +11,8 @@ function reverseV2(something){
 $(document).ready(function() {
    $("#clear").click(function(event){
     $("#results").empty();
-    $("#talky").empty();
+    //$("#talky").empty();
+    $('#talky').val('');
     event.preventDefault();
    })
 })
